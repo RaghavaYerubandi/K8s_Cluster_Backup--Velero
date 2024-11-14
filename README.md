@@ -75,3 +75,13 @@ velero schedule create daily-backup --schedule="0 0 * * *"
 ~~~bash
 velero restore create --from-backup <backup-name>
 ~~~
+
+Avalibale commands
+~~~bash
+ backup-locations   Get backup storage locations
+  backups            Get backups
+  plugins            Get information for all plugins on the velero server
+  restores           Get restores
+  schedules          Get schedules
+  snapshot-locations Get snapshot locations
+~~~
