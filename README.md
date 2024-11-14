@@ -75,6 +75,10 @@ velero schedule create daily-backup --schedule="0 0 * * *"
 ~~~bash
 velero restore create --from-backup <backup-name>
 ~~~
+or 
+~~~bash
+velero restore create [RESTORE_NAME] [--from-backup BACKUP_NAME | --from-schedule SCHEDULE_NAME] 
+~~~
 
 Avalibale commands
 ~~~bash
