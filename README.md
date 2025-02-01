@@ -19,6 +19,10 @@ Velero is a backup and restore solution for Kubernetes clusters. It enables you 
 ~~~bash
 wget https://github.com/vmware-tanzu/velero/releases/download/v1.15.0/velero-v1.15.0-linux-amd64.tar.gz
 ~~~
+**Note:** Ensure you check the latest release before downloading.
+~~~bash
+https://github.com/vmware-tanzu/velero/releases/
+~~~
 **Extract the file**
 ~~~bash
 tar -xzvf velero-v1.15.0-linux-amd64.tar.gz
